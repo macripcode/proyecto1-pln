@@ -1,0 +1,1605 @@
+/*!
+ * Start Bootstrap - New Age v3.3.7 (http://startbootstrap.com/template-overviews/new-age)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+.heading-font {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.body-font {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+.alt-font {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+a {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    color: #666666;
+}
+a:hover,
+a:focus {
+  color: #ff0000;
+  text-decoration: none;
+}
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
+}
+hr.light {
+  border-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.navbar-default {
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.navbar-default .navbar-header .navbar-brand {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #555555;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #ff0000;
+}
+.navbar-default .navbar-header .navbar-toggle {
+  font-size: 12px;
+  color: #222222;
+  padding: 8px 10px;
+}
+.navbar-default .nav > li > a {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  color: #222222;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #ff0000;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #cccccc !important;
+  background-color: transparent;
+}
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent;
+}
+
+/*-------login-----------*/
+img#img_twitter {
+    width: 150px;
+    height: 150px;
+    margin-left: -24px;
+}
+
+p#parrafo1 {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px #555555;
+    /* margin-bottom: 10px; */
+    border-bottom: 1px solid #ff0000;
+}
+
+p#parrafo2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#area_texto1:focus,#area_texto1:active{
+  background: -webkit-linear-gradient(left, #ffffff , #cccccc);
+  border: 1px solid #cccccc;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(206, 225, 241, 0.6);
+
+}
+
+p.clase_palabra {
+    font-weight: bold;
+    color: #555555;
+    border-bottom: 1px solid #555555;
+    font-size: 18px;
+}
+
+p.c_lemma {
+    font-size: 16px;
+    color: #0000FF;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px #555;
+}
+
+p.c_tag {
+    font-size: 16px;
+    color: #ff0000;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px #555;
+}
+
+.tokens {
+    border-bottom: 1px solid #555555;
+    margin-bottom: 20px;
+}
+
+p.c_hashtag {
+    color: #BF00FF;
+    font-size: 16px;
+    text-shadow: 1px 1px #555;
+}
+p.c_nickname {
+    color: #00FF00;
+    font-size: 16px;
+    text-shadow: 1px 1px #555;
+}
+
+p.c_url {
+    color: #00FFFF;
+    font-size: 16px;
+    text-shadow: 1px 1px #555;
+}
+p.c_emoticon {
+    color: #FFFF00;
+    font-size: 16px;
+    text-shadow: 1px 1px #555;
+}
+p.c_arrow {
+    color: #FF00BF;
+    font-size: 16px;
+    text-shadow: 1px 1px #555;
+}
+.c_grupo {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+table#res {
+    background-color: #d1d1d1;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+
+table#res:hover {
+  background-color: #bdbdbd;
+}
+
+
+
+/*-------login-----------*/
+
+
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .navbar-default .navbar-header .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: white;
+  }
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+  .navbar-default.affix {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+.navbar-default.affix .navbar-header .navbar-brand {
+  color: #ffffff;
+}
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #666666;
+  }
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #666666;
+  }
+}
+header {
+
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    overflow-y: hidden;
+    background: url(../img/bg-pattern.png), #7b4397;
+    background: url(../img/bg-pattern.png), -webkit-linear-gradient(to left, #555, #ffffff);
+    background: url(../img/bg-pattern.png), linear-gradient(to left, #555, #ffffff);
+    color: white;
+}
+header .header-content {
+  text-align: center;
+  padding: 150px 0 50px;
+  position: relative;
+}
+header .header-content .header-content-inner {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+header .header-content .header-content-inner h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+header .header-content .header-content-inner .list-badges {
+  margin-bottom: 25px;
+}
+header .header-content .header-content-inner .list-badges img {
+  height: 50px;
+  margin-bottom: 25px;
+}
+header .device-container {
+  max-width: 300px;
+  margin: 0 auto 100px;
+}
+header .device-container .screen img {
+  border-radius: 3px;
+}
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    text-align: left;
+    padding: 0;
+    height: 100vh;
+  }
+  header .header-content .header-content-inner {
+    max-width: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 35px;
+  }
+  header .device-container {
+    max-width: none;
+    max-height: calc(0vh);
+    margin: 100px auto 0;
+  }
+}
+@media (min-width: 992px) {
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+}
+section {
+  padding: 100px 0;
+}
+section h2 {
+  font-size: 50px;
+}
+section.download {
+  padding: 150px 0;
+  position: relative;
+}
+section.download h2 {
+  margin-top: 0;
+  font-size: 50px;
+}
+section.download .badges .badge-link {
+  display: block;
+  margin-bottom: 25px;
+}
+section.download .badges .badge-link:last-child {
+  margin-bottom: 0;
+}
+section.download .badges .badge-link img {
+  height: 60px;
+}
+@media (min-width: 768px) {
+  section.download .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  section.download h2 {
+    font-size: 70px;
+  }
+}
+section.features .section-heading {
+  margin-bottom: 100px;
+}
+section.features .section-heading h2 {
+  margin-top: 0;
+}
+section.features .section-heading p {
+  margin-bottom: 0;
+}
+section.features .device-container,
+section.features .feature-item {
+  max-width: 300px;
+  margin: 0 auto;
+}
+section.features .device-container {
+  margin-bottom: 100px;
+}
+@media (min-width: 992px) {
+  section.features .device-container {
+    margin-bottom: 0;
+  }
+}
+section.features .feature-item {
+  text-align: center;
+  margin-bottom: 100px;
+}
+section.features .feature-item h3 {
+  font-size: 30px;
+}
+section.features .feature-item i {
+  font-size: 80px;
+  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #7b4397, #dc2430);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  section.features .device-container,
+  section.features .feature-item {
+    max-width: none;
+  }
+}
+section.cta {
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/bg-cta.jpg');
+  padding: 250px 0;
+}
+section.cta .cta-content {
+  position: relative;
+  z-index: 1;
+}
+section.cta .cta-content h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+  max-width: 450px;
+  font-size: 50px;
+}
+@media (min-width: 768px) {
+  section.cta .cta-content h2 {
+    font-size: 80px;
+  }
+}
+section.cta .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.contact {
+  text-align: center;
+}
+section.contact h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+section.contact h2 i {
+  color: #dd4b39;
+}
+section.contact ul.list-social {
+  margin-bottom: 0;
+}
+section.contact ul.list-social li a {
+  display: block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
+}
+section.contact ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+section.contact ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+section.contact ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+section.contact ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+section.contact ul.list-social li.social-google-plus a {
+  background-color: #dd4b39;
+}
+section.contact ul.list-social li.social-google-plus a:hover {
+  background-color: #d73925;
+}
+footer {
+  background-color: #222222;
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+footer ul {
+  margin-bottom: 0;
+}
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
+  text-decoration: none;
+}
+.bg-primary {
+  background: #ffffff;
+  background: -webkit-linear-gradient(#ffffff, #777777);
+  background: linear-gradient(#ffffff, #777777);
+}
+.text-primary {
+  color: #fdcc52;
+}
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.btn-outline {
+    color: #ff0000;
+    border-color: #ff0000;
+    border: 1px solid;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #ffffff;
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+.btn {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 300px;
+}
+.btn-xl {
+  padding: 15px 45px;
+  font-size: 11px;
+}
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #222222;
+}
+
+/*****Adiciones*****/
+input#login_usuario:focus, input#login_password:focus {
+    background: -webkit-linear-gradient(left, #ffffff , #cccccc);
+    border: 1px solid #cccccc;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(206, 225, 241, 0.6);
+}
+
+input.sombra_gris:focus{
+    background: -webkit-linear-gradient(left, #ffffff , #cccccc);
+    border: 1px solid #cccccc;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(206, 225, 241, 0.6);
+}
+
+select.sombra_gris_select:focus{
+  background: -webkit-linear-gradient(left, #ffffff , #cccccc);
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(206,225,241,0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(206,225,241,0.8);
+}
+
+p.titulos_calendario {
+    text-align: justify;
+    font-weight: 500;
+    color: #444444;
+}
+
+p.parrafo_calendario {
+    text-align: justify;
+    padding-left: 50px;
+    color: #444444;
+}
+
+li.item_doc_requeridos {
+    text-align: justify;
+    padding-left: 10px;
+    color: #444444;
+}
+
+.titulos{
+  color: #ffffff;
+  text-shadow: 2px 2px #555555;
+}
+
+.bordes_div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div#div_datos_personales{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+ div#div_institucion {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   display: none;
+
+ }
+
+ div#div_icfes {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   display: none;
+ }
+
+div#div_programa_academico{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: none;
+
+}
+
+div#div_documentos{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: none;
+
+}
+
+div#div_finalizar{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.nav_menu, .parrafo_inscripciones{
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 14px;
+  color: #666666;
+}
+
+#lista_documentos {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 14px;
+  color: #666666;
+  text-align: justify;
+}
+
+.boton_formulario_inscripcion{
+padding-top: 20px;
+
+}
+
+.nav_formulario_ins li a:hover,.nav_formulario_ins li a:focus {
+  color:#ff0000;
+  border: 1px solid #ff0000;
+}
+
+span.fuente {
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+#btn_documentos{
+  margin-top: 30px;
+}
+
+#titulo_perfiles{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#imagen_bienvenida_perfiles{
+  border-radius: 100px;
+  margin: 0 auto;
+}
+
+.titulo_bienvenida_perfiles{
+  border-bottom: 2px solid #ff0000;
+  text-shadow: 2px 2px #555555;
+}
+
+/*******************/
+
+/*acordion*/
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    display: block;
+}
+/*acordion*/
+
+.panel_programas_academicos{
+      font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+      text-align: justify;
+      font-size: 18px;
+}
+
+button.accordion{
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  text-align: justify;
+  font-size: 18px;
+}
+
+.panel_programas_academicos ul li a:hover{
+  color: #ff0000;
+}
+
+.panel_op{
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+.texto_op_formulario{
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 16px;
+  line-height: 1.42857143;
+
+}
+
+.panel {
+    box-shadow: 0 0px 0px rgba(0,0,0,.05);
+}
+
+.btn_pequeno{
+  margin-bottom: 30px;
+
+}
+#imag_usuario_op{
+  margin-top: 10px;
+}
+
+p#dp_nombre_op_l {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#imag_usuario_op{
+  background-color: #cccccc;
+  border-radius: 50px;
+}
+
+.espacio_formulario{
+  height: 20px;
+
+}
+
+.contenedor_icono{
+  height: 32px;
+  width: 32px;
+  border-radius: 30px;
+  background: #ccc;
+  color: #333333;
+  position: relative;
+  margin-left: 20px;
+  border: 1px solid #cccccc;
+}
+
+.iconos_form_op{
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  left:10px;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+span.icon-pencil2.iconos_form_op {
+    top: 5px;
+    left: 7px;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.contenedor_icono:hover {
+    color: #777;
+    border: 0px solid #777777;
+    background: -webkit-linear-gradient(white, #cccccc);
+    background: -o-linear-gradient(white, #cccccc);
+    background: -moz-linear-gradient(white, #cccccc);
+    background: linear-gradient(white, #cccccc);
+}
+span.icon-floppy-disk.iconos_form_op {
+    left: 6px;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.input_alt:focus{
+  background: -webkit-linear-gradient(left, #ffffff , #cccccc);
+  border: 1px solid #cccccc;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(206, 225, 241, 0.6);
+}
+
+#modificar_op_fnacimiento{
+
+}
+
+#guardar_op_fnacimiento{
+
+}
+
+.parrafo_form_operador{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#btn_deshabilitar_pa_op, #btn_consultar_pa_op{
+      margin-top: 20px;
+
+}
+
+#panel_programas_academicos_op{
+  padding-top: 20px;
+}
+
+select#jornada_pa_op, select#duracion_pa_op, select#prueba_tecnica_pa_op, select#consultar_ci_op {
+    width: 177px;
+}
+
+input#parametro_ci_op {
+  width: 33.33333%;
+  margin-left: 10px;
+}
+
+input#fnacimiento_operador {
+    width: 177px;
+}
+
+a#btn_consultar_ci_op {
+    margin-top: 20px;
+}
+
+
+#espacio_formulario_ap{
+  height: 13px;
+  width: 0px;
+}
+
+div#espacio_formulario_vi {
+    height: 20px;
+}
+
+.espacio_titulo{
+  height: 20px;
+}
+
+#div_circulo_1 {
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 100px;
+    background-image: url(../img/univalle_1.jpg);
+    background-position: center;
+    background-size: 100px;
+    display: inline-block;
+
+}
+
+#div_circulo_2 {
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 100px;
+    background-image: url(../img/univalle_2.jpg);
+    background-position: center;
+    background-size: 100px;
+    display: inline-block;
+
+
+}
+#div_circulo_3 {
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 100px;
+    background-image: url(../img/univalle_3.jpg);
+    background-position: center;
+    background-size: 100px;
+    display: inline-block;
+
+}
+
+#div_circulo_4 {
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 100px;
+    background-image: url(../img/univalle_4.jpg);
+    background-position: center;
+    background-size: 100px;
+    display: inline-block;
+
+}
+
+
+.rotateMe {
+ -webkit-transition: -webkit-transform 3s ease-out;
+ -moz-transition: -moz-transform 3s ease-out;
+ transition: transform 3s ease-out;
+}
+.rotateMe:hover {
+ -webkit-transform: rotate(10deg);
+ -moz-transform: rotate(10deg);
+ transform: rotate(10deg);
+}
+
+/*modificacion listas programas academicos*/
+div#programa_ing_sistemas_div {
+  text-align: center;
+  color: #666;
+  display: none;
+}
+
+/*modificacion listas programas academicos*/
+
+
+
+
+
+
+
+
+/*medias query adicionada inicio*/
+@media screen and (max-width: 479px) and (min-width: 320px) {
+  .titulo_bienvenida_perfiles {
+    font-size: 21px !important;
+  }
+  #titulo_perfiles {
+      margin-top: 100px;
+      margin-bottom: 50px;
+  }
+  section {
+    padding: 0px 0px;
+  }
+  section.features .section-heading {
+    margin-bottom: 0px;
+  }
+
+  .contenedor_icono {
+    height: 32px;
+    width: 32px;
+    border-radius: 30px;
+    background: #ccc;
+    color: #333333;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+  }
+  input#fnacimiento_operador {
+    width: calc(100% + 1px);
+  }
+
+  #btn_deshabilitar_pa_op, #btn_consultar_pa_op {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .btn_pequeno {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  select#jornada_pa_op, select#duracion_pa_op, select#prueba_tecnica_pa_op, select#consultar_ci_op {
+    width: 100%;
+  }
+
+  input#parametro_ci_op {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  a#btn_consultar_ci_op {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  a#btn_descargarpdf_ga_op,a#btn_generar_admitidos_ga_op, a#btn_generar_vi2_op,a#btn_descargar_vi2_op, a#btn_generar_vi_op, a#btn_descargar_vi_op {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  a#btn_cu_cu_op, a#btn_consultar_vic_op {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .espacio_formulario {
+    height: 0px;
+  }
+  div#espacio_formulario_cu, div#espacio_formulario_ga, div#espacio_formulario_up {
+    height: 10px;
+  }
+
+  /*Vista Usuario publico Inicio*/
+  #div_circulo_1, #div_circulo_2, #div_circulo_3, #div_circulo_4 {
+    margin: 10px;
+  }
+  header .header-content {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    position: relative;
+  }
+
+  #btn_ingresar_up{
+    width: 100%;
+  }
+  section.download {
+    padding: 50px 0;
+    position: relative;
+  }
+  .titulos {
+    color: #ffffff;
+    text-shadow: 2px 2px #555555;
+    font-size: 21px !important;
+    border-bottom: 2px solid #999;
+  }
+  p.parrafo_calendario {
+    font-size: 14px;
+  }
+  ul#lista_documentos_requeridos li p {
+    font-size: 14px;
+  }
+  .bordes_div {
+    border: 0px solid gray;
+  }
+  h2#titulo_oa_up {
+    color: #ff0000;
+    text-shadow: 1px 1px #999;
+  }
+  h2#titulo_inscribase_up {
+    font-size: 30px;
+  }
+  #btn_inscribirse_up{
+    width: 100%;
+  }
+
+  section.cta {
+    padding: 80px 0;
+  }
+
+  a#btn_fi_finalizar_up, a#btn_fi_doc_up, a#btn_fi_pa_up, a#btn_fi_icfes_up, a#btn_fi_ins_up, a#btn_fi_dp_up {
+      width: 100%;
+  }
+
+  /*Vista Usuario publico Fin*/
+
+  /*Vista Login*/
+  #espacio_formulario_login {
+    height: 50px;
+  }
+  /*Vista Login*/
+
+}
+
+@media screen and (max-width: 639px) and (min-width: 480px) {
+  .titulo_bienvenida_perfiles {
+    font-size: 35px !important;
+  }
+  #titulo_perfiles {
+      margin-top: 100px;
+      margin-bottom: 50px;
+  }
+  section {
+    padding: 0px 0px;
+  }
+  section.features .section-heading {
+    margin-bottom: 0px;
+  }
+
+  .contenedor_icono {
+    height: 32px;
+    width: 32px;
+    border-radius: 30px;
+    background: #ccc;
+    color: #333333;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+  }
+  input#fnacimiento_operador {
+    width: calc(100% + 1px);
+  }
+
+  #btn_deshabilitar_pa_op, #btn_consultar_pa_op {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .btn_pequeno {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  select#jornada_pa_op, select#duracion_pa_op, select#prueba_tecnica_pa_op, select#consultar_ci_op {
+    width: 100%;
+  }
+
+  input#parametro_ci_op {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  a#btn_consultar_ci_op {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  a#btn_descargarpdf_ga_op,a#btn_generar_admitidos_ga_op, a#btn_generar_vi2_op,a#btn_descargar_vi2_op, a#btn_generar_vi_op, a#btn_descargar_vi_op {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  a#btn_cu_cu_op, a#btn_consultar_vic_op {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .espacio_formulario {
+    height: 0px;
+  }
+
+  div#espacio_formulario_cu, div#espacio_formulario_ga,div#espacio_formulario_up {
+    height: 10px;
+  }
+
+  /*Inicio Vista Usuario Publico*/
+  #div_circulo_1, #div_circulo_2, #div_circulo_3, #div_circulo_4 {
+    margin: 10px;
+  }
+  header .header-content {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    position: relative;
+  }
+
+  #btn_ingresar_up{
+    width: 100%;
+  }
+  section.download {
+    padding: 50px 0;
+    position: relative;
+  }
+  .titulos {
+    color: #ffffff;
+    text-shadow: 2px 2px #555555;
+    font-size: 30px !important;
+    border-bottom: 2px solid #999;
+  }
+  p.parrafo_calendario {
+    font-size: 14px;
+  }
+  ul#lista_documentos_requeridos li p {
+    font-size: 14px;
+  }
+  .bordes_div {
+    border: 0px solid gray;
+  }
+  h2#titulo_oa_up {
+    color: #ff0000;
+    text-shadow: 1px 1px #999;
+  }
+  h2#titulo_inscribase_up {
+    font-size: 30px;
+  }
+  #btn_inscribirse_up{
+    width: 100%;
+  }
+
+  section.cta {
+    padding: 80px 0;
+  }
+
+  a#btn_fi_finalizar_up, a#btn_fi_doc_up, a#btn_fi_pa_up, a#btn_fi_icfes_up, a#btn_fi_ins_up, a#btn_fi_dp_up {
+      width: 100%;
+  }
+
+  /*Fin Vista Usuario Publico*/
+  /*Vista Login*/
+  #espacio_formulario_login {
+    height: 100px;
+  }
+  /*Vista Login*/
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 640px) {
+  .titulo_bienvenida_perfiles {
+    font-size: 30px;
+  }
+  #titulo_perfiles {
+      margin-top: 100px;
+      margin-bottom: 50px;
+  }
+  section {
+    padding: 0px 0px;
+  }
+  section.features .section-heading {
+    margin-bottom: 0px;
+  }
+
+  .contenedor_icono {
+    height: 32px;
+    width: 32px;
+    border-radius: 30px;
+    background: #ccc;
+    color: #333333;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+  }
+  input#fnacimiento_operador {
+    width: calc(100% + 1px);
+  }
+
+  #btn_deshabilitar_pa_op, #btn_consultar_pa_op {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .btn_pequeno {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  select#jornada_pa_op, select#duracion_pa_op, select#prueba_tecnica_pa_op, select#consultar_ci_op {
+    width: 100%;
+  }
+
+  input#parametro_ci_op {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  a#btn_consultar_ci_op {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  a#btn_descargarpdf_ga_op,a#btn_generar_admitidos_ga_op, a#btn_generar_vi2_op,a#btn_descargar_vi2_op, a#btn_generar_vi_op, a#btn_descargar_vi_op {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  a#btn_cu_cu_op, a#btn_consultar_vic_op {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .espacio_formulario {
+    height: 0px;
+  }
+  div#espacio_formulario_cu, div#espacio_formulario_ga, div#espacio_formulario_up {
+    height: 10px;
+  }
+
+  /*Inicio Vista Usuario Publico*/
+  #div_circulo_1, #div_circulo_2, #div_circulo_3, #div_circulo_4 {
+    margin: 10px;
+  }
+  header .header-content {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    position: relative;
+  }
+
+  #btn_ingresar_up{
+    width: 100%;
+  }
+  section.download {
+    padding: 50px 0;
+    position: relative;
+  }
+  .titulos {
+    color: #ffffff;
+    text-shadow: 2px 2px #555555;
+    font-size: 30px !important;
+    border-bottom: 2px solid #999;
+  }
+  p.parrafo_calendario {
+    font-size: 16px;
+  }
+  ul#lista_documentos_requeridos li p {
+    font-size: 16px;
+  }
+  .bordes_div {
+    border: 0px solid gray;
+  }
+  h2#titulo_oa_up {
+    color: #ff0000;
+    text-shadow: 1px 1px #999;
+  }
+  h2#titulo_inscribase_up {
+    font-size: 40px;
+  }
+  #btn_inscribirse_up{
+    width: 100%;
+  }
+
+  section.cta {
+    padding: 80px 0;
+  }
+
+  a#btn_fi_finalizar_up, a#btn_fi_doc_up, a#btn_fi_pa_up, a#btn_fi_icfes_up, a#btn_fi_ins_up, a#btn_fi_dp_up {
+      width: 100%;
+  }
+
+  .parrafo_inscripciones {
+    font-size: 16px;
+  }
+
+  /*Fin Vista Usuario Publico*/
+
+  /*Vista Login*/
+  #div_circulo_1, #div_circulo_2, #div_circulo_3,#div_circulo_4 {
+    height: 120px;
+    width: 120px;
+    background-size: 120px;
+    margin: 20px;
+  }
+
+  h1.titulo_bienvenida_perfiles {
+    font-size: 35px !important;
+  }
+
+  #espacio_formulario_login {
+    height: 100px;
+  }
+  /*Vista Login*/
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  header {
+    min-height: 0%;
+  }
+  section {
+    padding: 20px 0;
+  }
+  #espacio_formulario_ap {
+    height: 10px;
+    width: 100%;
+  }
+  .parrafo_form_operador {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #espacio_formulario_vi{
+    height: 20px;
+  }
+  input#fnacimiento_cu_op {
+    width: 177px;
+  }
+  select#tu_cu_op {
+    width: 177px;
+  }
+
+  div#espacio_formulario_cu, div#espacio_formulario_ga, div#espacio_formulario_up {
+    height: 10px;
+  }
+
+  /*Inicio Vista Usuario Publico*/
+  #div_circulo_1, #div_circulo_2, #div_circulo_3, #div_circulo_4 {
+    margin: 10px;
+  }
+  header .header-content {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    position: relative;
+  }
+
+  #btn_ingresar_up{
+    width: 100%;
+  }
+  section.download {
+    padding: 50px 0;
+    position: relative;
+  }
+  .titulos {
+    color: #ffffff;
+    text-shadow: 2px 2px #555555;
+    font-size: 40px !important;
+    border-bottom: 2px solid #999;
+  }
+  p.parrafo_calendario {
+    font-size: 16px;
+  }
+  ul#lista_documentos_requeridos li p {
+    font-size: 16px;
+  }
+  .bordes_div {
+    border: 0px solid gray;
+  }
+  h2#titulo_oa_up {
+    color: #ff0000;
+    text-shadow: 1px 1px #999;
+  }
+  h2#titulo_inscribase_up {
+    font-size: 50px;
+  }
+  #btn_inscribirse_up{
+    width: 50%;
+  }
+
+  section.cta {
+    padding: 80px 0;
+  }
+
+  a#btn_fi_finalizar_up, a#btn_fi_doc_up, a#btn_fi_pa_up, a#btn_fi_icfes_up, a#btn_fi_ins_up, a#btn_fi_dp_up {
+      width: 72%;
+  }
+
+  .parrafo_inscripciones {
+    font-size: 16px;
+  }
+
+  /*Fin Vista Usuario Publico*/
+
+  /*Vista Login*/
+  h1.titulo_bienvenida_perfiles {
+    font-size: 30px !important;
+  }
+  div#div_imagenes {
+    padding-left: 40px;
+  }
+
+  /*Vista Login*/
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  header {
+    min-height: 0%;
+    height: 750px;
+  }
+  section {
+    padding: 20px 0;
+  }
+  #espacio_formulario_ap {
+    height: 10px;
+    width: 100%;
+  }
+  .parrafo_form_operador {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #espacio_formulario_vi{
+    height: 20px;
+  }
+  input#fnacimiento_cu_op {
+    width: 177px;
+  }
+  select#tu_cu_op {
+    width: 177px;
+  }
+
+  /*Inicio Vista Usuario Publico*/
+  div#panel_dp_up {
+    padding-top: 20px;
+  }
+  section.features .section-heading p {
+    margin-bottom: 10px;
+  }
+
+  .titulos {
+    color: #ffffff;
+    text-shadow: 2px 2px #555555;
+    font-size: 40px !important;
+    border-bottom: 2px solid #999;
+  }
+
+  section.cta {
+    padding: 150px 0;
+  }
+
+  h2#titulo_inscribase_up {
+    font-size: 60px;
+  }
+
+  a#btn_fi_finalizar_up, a#btn_fi_doc_up, a#btn_fi_pa_up, a#btn_fi_icfes_up, a#btn_fi_ins_up, a#btn_fi_dp_up {
+      width: 72%;
+  }
+  /*Fin Vista Usuario Publico*/
+
+  /*Modificaciones Vista Login*/
+  h1.titulo_bienvenida_perfiles {
+    text-align: center;
+    font-size: 45px !important;
+  }
+
+  #div_circulo_1, #div_circulo_2, #div_circulo_3,#div_circulo_4 {
+    height: 150px;
+    width: 150px;
+    background-size: 150px;
+    margin: 20px;
+  }
+  a#btn_ingresar_up {
+    width: 100%;
+  }
+
+  #div_circulo_1, #div_circulo_2, #div_circulo_3, #div_circulo_4 {
+    height: 120px;
+    width: 120px;
+    background-size: 120px;
+    margin: 20px;
+    /* display: inline; */
+  }
+  div#div_imagenes {
+    padding-left: 60px;
+  }
+  /*Modificaciones Vista Login*/
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    min-height: auto;
+    height: 750px;
+}
+
+  .titulos {
+    color: #ffffff;
+    text-shadow: 2px 2px #555555;
+    font-size: 40px !important;
+    border-bottom: 2px solid #999;
+  }
+
+  a#btn_fi_finalizar_up, a#btn_fi_doc_up, a#btn_fi_pa_up, a#btn_fi_icfes_up, a#btn_fi_ins_up, a#btn_fi_dp_up {
+      width: 72%;
+  }
+
+  div#panel_dp_up {
+    padding-top: 20px;
+  }
+
+  section.features .section-heading p {
+    margin-bottom: 20px;
+  }
+
+  section.cta {
+    padding: 150px 0;
+  }
+
+  h2#titulo_inscribase_up {
+    font-size: 60px;
+  }
+
+  /*Modificaciones Vista Login*/
+  h1.titulo_bienvenida_perfiles {
+    text-align: center;
+    font-size: 45px !important;
+  }
+
+  #div_circulo_1, #div_circulo_2, #div_circulo_3,#div_circulo_4 {
+    height: 150px;
+    width: 150px;
+    background-size: 150px;
+    margin: 20px;
+  }
+  a#btn_ingresar_up {
+    width: 100%;
+  }
+  /*Modificaciones Vista Login*/
+
+}
+/*medias query adicionada fin*/
